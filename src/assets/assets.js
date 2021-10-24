@@ -1,0 +1,20 @@
+import LogoApp from "./images/logo.jpg";
+import Facebook from "./icon/icon-facebook.png";
+import Instagram from "./icon/icon-instagram.png";
+import Github from "./icon/icon-github.png";
+import LinkedIn from "./icon/icon-linkedin.png";
+import Whatsapp from "./icon/icon-whatsapp.png";
+import JumbotronImg1 from "./images/grosir-kaos-polos-murah.jpg";
+import Carousel1 from "./images/carousel1.jpg";
+import Carousel2 from "./images/carousel2.jpg";
+import Carousel3 from "./images/carousel3.jpg";
+import Trouser from "./images/celana.jpg";
+import Shirt from "./images/t-shirt.jpg";
+import Polo from "./images/polo.jpg";
+import Raglan from "./images/raglan.jpg";
+import Jaket from "./images/jaket.jpg";
+import Ladies from "./images/ladies.jpg";
+import Kids from "./images/kids.jpg";
+import Kemeja from "./images/kemeja.jpg";
+
+export {LogoApp, Facebook, Instagram, Github, LinkedIn, Whatsapp, JumbotronImg1, Carousel1, Carousel2, Carousel3, Trouser, Shirt, Polo, Raglan, Jaket, Ladies, Kids, Kemeja};

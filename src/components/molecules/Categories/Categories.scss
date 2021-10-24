@@ -1,0 +1,77 @@
+.categories {
+    position: sticky;
+    top: 80px;
+    width: 100%;
+    border-radius: 10px;
+    border: {
+        top: 2px solid black;
+        right: 1px solid black;
+        left: 1px solid black;
+        bottom: 2px solid black;
+    }
+
+    .pilih-kategori {
+        background-color: orangered;
+        padding: 5px;
+        color: #012438;
+        border-radius: 10px 10px 0 0;
+
+        p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+
+    .kategori-produk {
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 2px solid black;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .kategori-produk:hover {
+        font-weight: bold;
+    }
+
+    .kategori-produk:nth-child(odd) {
+        background-color:whitesmoke;
+    }
+
+    .kategori-produk:nth-child(even) {
+        background-color: grey;
+    }
+
+    .kategori-produk:last-child {
+        border-bottom: none;
+        border-radius: 0 0 10px 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 0px;
+        border: none;
+        border-radius: 0em;
+        align-items: center;
+
+        .pilih-kategori {
+            display: none;
+        }
+
+        .kategori-produk {
+            border: 1px solid black;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .kategori-produk:last-child {
+            border-bottom: 1px solid black;
+            border-radius: 0em;
+        }
+    }
+}

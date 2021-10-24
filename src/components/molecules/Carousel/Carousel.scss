@@ -1,0 +1,17 @@
+.carousel-main{
+    width: 80%;
+    margin: auto;
+    background-color: burlywood;
+
+    .img-carousel {
+        height: 750px; 
+        
+        @media screen and (max-width: 768px) {
+            height: 325px;
+        }
+    }
+}
+
+.carousel.carousel-slider .control-arrow {
+    padding: 25px;
+}

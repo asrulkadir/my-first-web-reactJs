@@ -1,0 +1,40 @@
+.main-card-item-wrapper {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+    .card-item-wrapper {
+        margin: 0px 10px;
+        box-shadow: 1px 1px 5px 2px gray; 
+
+        @media screen and (max-width: 600px) {
+            margin: 10px 0;
+        }
+
+        .icon-card-item {
+            font-size: 4em;
+            line-height: 0em;
+            text-align: center;
+            margin: 5px 0 0 0;
+        }
+
+        .title-card-item {
+            font-size: 25px;
+            text-align: center;
+            margin: 0;
+            color: #012438;
+            font-weight: bold;
+        }
+
+        .description-card-item {
+            font-size: 16px;
+            text-align: center;
+            margin: 5px 10px;
+        }
+    }
+      
+}

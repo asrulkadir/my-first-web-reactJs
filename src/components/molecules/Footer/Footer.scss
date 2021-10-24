@@ -1,0 +1,44 @@
+$phone: 768px;
+
+.footer-wrapper {
+    background-color: orangered;
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+
+        .medsos-wrapper, .logo-wrapper {
+            display: flex;
+            line-height: 0.5em;
+        }
+    
+        .title-footer {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    
+        .pages-footer-wrapper, .products-footer-wrapper {
+            line-height: 0.5em;
+        }
+    
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: $phone) {
+            flex-direction: column;
+            margin: 5px 20px; 
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        background-color: gray;
+        padding: 2px 0px;
+    }
+}

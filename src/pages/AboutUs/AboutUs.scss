@@ -1,0 +1,62 @@
+.about-wrapper {
+    margin: 6em auto 0;
+    width: 80%;
+    min-height: 100vh;
+
+    h1 {
+        margin: 0;
+    }
+
+    .visi-misi {
+        background-color: #012438;
+        color: gray;
+        font-weight: bold;
+        border-radius: 20px;
+
+        h2, .visi-desc {
+            text-align: center;
+        }
+
+        .visi-desc {
+            font-size: 18px;
+            padding: 0px 0.125em;
+        }
+
+        ol {
+            padding-bottom: 1em;
+            padding-right: 0.25em;
+
+            @media screen and (min-width: 768px) {
+                padding-left: 7.5em;
+                padding-right: 1em;
+            }
+
+            @media screen and (max-width: 1024px) {
+                padding-left: 2.5em;
+            }
+
+            li {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .lihat-produk-kami {
+        margin: auto;
+
+        @media screen and (max-width: 600px) {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+
+        @media screen and (min-width: 768px) {
+            width: 40%;
+            margin-bottom: 20px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            width: 20%;
+            margin-bottom: 20px;
+        }
+    }
+}

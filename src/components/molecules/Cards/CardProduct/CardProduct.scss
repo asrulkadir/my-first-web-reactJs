@@ -1,0 +1,32 @@
+.card-product-wrapper {
+    background-color: orangered;
+    box-shadow: 1px 1px 5px 1px gray;
+    margin: 10px 10px;
+
+    @media screen and (max-width: 600px) {
+        margin: 5px 10px;
+    }
+
+    .title-card-product {
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .title-card-product:hover {
+        text-decoration: underline;
+    }
+
+    .img-card-product {
+        width: 300px;
+        height: 300px;
+
+        @media screen and (max-width: 600px) {
+            width: 250px;
+            height: 250px; 
+        }
+    }
+
+}
